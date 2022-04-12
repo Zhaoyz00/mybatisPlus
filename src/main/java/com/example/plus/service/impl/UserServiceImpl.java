@@ -6,6 +6,9 @@ import com.example.plus.mapper.UserMapper;
 import com.example.plus.service.UserService;
 import org.springframework.stereotype.Service;
 
+/**
+ * @author hp-pc
+ */
 @Service
 public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements UserService {
 
